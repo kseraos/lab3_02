@@ -30,7 +30,7 @@ jobs:
           context: ./
           push: true
           # dockerfile: ./Dockerfile   # Se o Dockerfile estiver em um local diferente, descomente e defina o caminho correto
-          tags: moisesgc/webacademy:latest
+          tags: kseraos/webacademy:latest
 
   deploy:
     runs-on: ubuntu-latest
